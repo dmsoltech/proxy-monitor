@@ -3,6 +3,8 @@ members = [
     "examples",
     "jito_protos",
     "proxy",
+    "monitor-bot",
+    "monitor-tester"
 ]
 resolver = "2"
 
@@ -40,6 +42,7 @@ solana-metrics = "=2.2.1"
 solana-net-utils = "=2.2.1"
 solana-perf = "=2.2.1"
 solana-sdk = "=2.2.1"
+solana-transaction-status = "=2.2.1"
 solana-streamer = "=2.2.1"
 solana-ledger = { git = "https://github.com/jito-foundation/jito-solana.git", branch = "eric/v2.2-merkle-recovery", package = "solana-ledger" }
 solana-entry = "=2.2.1"

@@ -1,0 +1,11 @@
+[package]
+name = "monitor-tester"
+edition = "2021"
+publish = false
+
+[dependencies]
+tokio = "1.29.1"
+thiserror = "1"
+monitor-bot = { path = "../monitor-bot" }
+
+[dev-dependencies]

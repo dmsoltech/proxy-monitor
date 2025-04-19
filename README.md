@@ -6,3 +6,6 @@ See more at https://docs.jito.wtf/lowlatencytxnfeed/
 
 ## Disclaimer
 Use this at your own risk.
+
+
+cargo run -p monitor-tester --release
